@@ -1,0 +1,34 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    background-color: #2f3135;;
+    height: 100vh;
+    padding: 5px; 
+}
+
+.sidebar__profile{
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar__services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sidebar__service{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+}
+.sidebar__service > p {
+    padding: 0 15px;
+    color: white;
+}
+.sidebar__service:hover{
+    background-color: grey;
+}
