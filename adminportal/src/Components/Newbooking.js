@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Newbooking.css'
 import { useForm, useStep } from "react-hooks-helper"
 import Name from './Subcomponents/BookingMultiStep/Name'
@@ -46,6 +46,9 @@ function Newbooking() {
         initialStep: 0
     })
     const [Prompt, setDirty, setPristine] = useUnsavedChangesWarning();
+    useEffect(() => {
+        
+    }, [formData])
    
     const props = { formData, setForm, navigation, setDirty, setPristine, Prompt }
     switch (step.id) {
