@@ -7,7 +7,7 @@ function Login({handleOnchange, handleOnSubmit, formSwitcher, email, password}) 
         <Container>
             <Row>
                 <Col>
-                    <h2 className="text-info text-center">Admin Login</h2>
+                    <h2 className="text-info text-center">Admin Login Shree!</h2>
                     <hr/>
                     <Form autoComplete="off" onSubmit={handleOnSubmit}>
 
