@@ -1,0 +1,10 @@
+.main{
+    margin-left: 20px;
+    width: 70%;
+   
+}
+.main__components{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

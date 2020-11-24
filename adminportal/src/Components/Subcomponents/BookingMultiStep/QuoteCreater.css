@@ -1,0 +1,51 @@
+.quotecreater{
+    border: 1px solid #f4af1c;
+    margin: 20px;
+    padding:20px;
+    height: 250px;
+    background-color:#f4af1c;
+    border-radius: 5%;
+    font-family: 'Raleway', sans-serif;
+}
+.divide > div > p {
+    color:#02154f; 
+    text-align: left;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+}
+.divide{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:15px;
+    
+}
+.divide2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 120%;
+    font-weight:bold;
+  
+}
+.sub_divide{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.sub_divide2{
+    border-top:1px #02154f solid;
+    width:100%;
+    display: flex;
+    background-color:#f4af1c;
+}
+.sub_divide3{
+    border-top: 1px #02154f solid;
+    background-color: #02154f;
+    color:white;
+    border-radius: 9px;
+    display: flex;
+    width:100%;
+}

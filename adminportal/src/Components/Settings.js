@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Home() {
+function Settings() {
     return (
         <div>
-            <h2>home</h2>
+            <p>Settings</p>
         </div>
     )
 }
 
-export default Home
+export default Settings
