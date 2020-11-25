@@ -9,6 +9,11 @@ import SettingsApplicationsIcon from '@material-ui/icons/SettingsApplications';
 function Sidebar() {
     return (
         <div className="sidebar">
+          <div className="admin_profile">
+            <div className="admin_profile_pic"></div>
+            <div className="admin_name">Rajesh Hamal</div>
+            <div className="admin_role"><p>Team Role: God</p></div>
+          </div>
           <Link to='/' className="sidebar__link">
               WE DO ADMIN PORTAL
             </Link>

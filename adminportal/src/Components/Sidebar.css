@@ -4,7 +4,7 @@
     flex-direction: column;
     background-color: #00154F;
     width: 230px;
-    height: 100vh;
+    height: auto;
 
     
 }
@@ -33,4 +33,29 @@
     text-decoration: none;
     background-color: #f6ce75;
     color: #00154F;
+}
+.admin_profile_pic{
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    border:1px solid #F4AF1B;
+    background-image: url(https://myrepublica.nagariknetwork.com/uploads/media/RajeshHamal.jpg);
+    background-size: cover;
+
+}
+.admin_profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px 20px;
+}
+.admin_profile> div{
+   
+    font-weight:normal;
+    color:#F4AF1B;
+    font-family: 'Anton', sans-serif;
+    margin-top:10px;
+
+    
 }

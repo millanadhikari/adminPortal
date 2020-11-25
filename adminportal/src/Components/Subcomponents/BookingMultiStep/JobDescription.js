@@ -28,7 +28,7 @@ function JobDescription({ formData, setForm, navigation }) {
              <TextField
                 label="Services"
                 name="serviceChoosed"
-                color="inherit"
+                color="white"
                 variant="outlined"
                 autoComplete="off"
                 margin="normal"
