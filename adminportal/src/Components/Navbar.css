@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 100%;
     border-bottom: 1px solid black;
    
     
@@ -10,6 +10,7 @@
 .navbar__brand{
     text-decoration: none;
     color: #00154F;
+    font-size: 90%;
 }
 .navbar__brand:hover { 
     text-decoration: none;
